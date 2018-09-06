@@ -1,0 +1,369 @@
+/*  responsive
+---------------------------------------------------------------------- /
+   1 - media screen and (max-width: 1199px)
+   2 - media screen and (max-width: 991px)
+   3 - media screen and (max-width: 767px)
+   4 - media screen and (max-width: 624px)
+   5 - media screen and (max-width: 567px)
+   6 - media screen and (max-width: 480px)
+   7 - media screen and (max-width: 380px)
+
+
+---------------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 1199px) {
+	.navbar-brand {
+		padding: 15px 0px;
+	}
+	.navbar-right {
+		float: none !important;
+	}
+	.social-icons {
+		display: none;
+	}
+	.search-icon {
+		float: right;
+	}
+	.nabbarnav {
+		margin-bottom: 20px;
+	}
+	.sb-search-input{
+		padding: 14px 65px 14px 20px;
+	}
+	.services-content h3 a {
+		font-size: 16px;
+	}
+	/*service page satart*/
+	.web-design-sol-img, .mobile-sol-img, .cloud-competing-sol-img {
+		width: 50%;
+		
+	}
+	/*protfolio page star*/
+	.cascade-slider_container, .protfolio-slider_container {
+	  max-width: 900px;
+	  
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	/*service page start*/
+	.web-design-sol-content, .mobile-sol-content, .cloud-competing-content, .web-dev-sol-content, .digital-sol-content, .web-dev-sol-img, .digital-sol-img, .web-design-sol-img, .mobile-sol-img, .cloud-competing-sol-img{
+		height: 520px;
+	}
+	.web-design-sol-img img, .mobile-sol-img img, .cloud-competing-sol-img img, .web-dev-sol-img img, .digital-sol-img img{
+		width: 70%;
+		
+	}
+	/*protfolio page star*/
+	.cascade-slider_container, .protfolio-slider_container {
+	  max-width: 700px;
+	  max-height: 350px;
+	}
+	/*about us page*/
+	.web-presence p{
+		max-width: 800px;
+		
+	}
+	
+}
+@media only screen and (max-width: 980px) {
+
+	
+}
+@media only screen and (max-width: 991px) {
+		.about-company p{
+			width:760px;
+		}
+		.conatct-content ul li a{
+			
+			font-size:20px;
+			height:50px;
+			width:50px;
+			line-height:50px;
+			text-align:center;
+			color:#fff;
+			margin-right:12px;
+			border-radius:50%;
+		}
+		.contact-us-map iframe{
+			width:100%;
+		}
+		/*protfolio page star*/
+	.cascade-slider_container, .protfolio-slider_container {
+	  max-width: 700px;
+	 
+	}
+	
+		
+}
+
+
+@media only screen and (max-width: 840px){
+	.testimonial-content{
+		width:100%;
+	}
+	
+	.testimonial-img img{
+		margin:0 auto;
+		float:none;
+		padding:0px;
+		border-radius:50%;
+		
+	}
+	.testimonial-content p{
+		padding-top:40px;
+	}
+	.testimonial-content{
+		text-align:center;
+		margin-top: -40px;
+	}
+	/*service page satart*/
+	.web-design-sol-img img, .mobile-sol-img img, .cloud-competing-sol-img img, .web-dev-sol-img img, .digital-sol-img img{
+		width: 90%;
+		padding-top: 100px;
+	}
+	.web-design-sol-content, .mobile-sol-content, .cloud-competing-content, .web-dev-sol-content, .digital-sol-content, .web-dev-sol-img, .digital-sol-img, .web-design-sol-img, .mobile-sol-img, .cloud-competing-sol-img{
+		height: 600px;
+	}
+	/*protfolio page star*/
+	.cascade-slider_container, .protfolio-slider_container {
+	  max-width: 600px;
+	 
+	}
+	/*about us page*/
+	.web-presence p{
+		max-width: 700px;
+		
+	}
+	
+}
+@media only screen and (max-width: 768px){
+	
+	.slick-next{
+		right: 0;
+		
+	}
+	.slick-prev{
+		left: -20px;
+		z-index:999999999;
+	}
+	.navbar-brand {
+		float: none;
+		height: 0px;
+		padding: 0px;
+		line-height:0px;
+	}
+	.navbar-brand > img{
+		padding: 0px 200px;
+	}
+	#menu-main {
+		line-height: 0px;
+	}
+	.sb-search {
+		margin-top: 20px;
+	}
+	.sb-search-input{
+		width:auto !important;
+	}
+	/*protfolio page star*/
+	.cascade-slider_container, .protfolio-slider_container {
+	  max-width: 600px;
+	 
+	}
+	.cascade-slider_container, .protfolio-slider_container {
+	  max-width: 500px;
+	 
+	}
+}
+@media only screen and (max-width: 767px){
+	.navbar-brand > img{
+		padding: 20px 0px;
+	}
+	.navbar-toggle{
+		margin-top:20px;
+		border: 2px solid #fff;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #E71821;
+		color: #fff !important;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #E71821;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.nabbarnav {
+		margin-top: 0px;
+	}
+	.social-icons {
+		display: block;
+	}
+	.navbar-form{
+		box-shadow:none !important;
+		padding:0px;
+		border:none;
+	}
+	.social-icon {
+		float: left;
+		padding-left: 20px;
+	}
+	.search-icon {
+		float: right;
+		padding-right: 20px;
+	}
+	.dropdown-menu{
+		padding-top:0px;
+	}
+	.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+		padding: 16px 15px 16px 25px;
+	}
+	
+	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+		color: #333;
+		background-color: #fff;
+	}
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+		color: #8C1829;
+		background-color: #fff;
+	}
+	.about-company p {
+		width: 600px;
+	}
+	.services-content p {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.services-content h3 a {
+		font-size: 25px;
+	}
+	.testimonial-content p {
+		margin: 0 auto;
+	}
+	/*service page start*/
+
+	.web-design-sol-content, .mobile-sol-content, .cloud-competing-content, .web-dev-sol-content, .digital-sol-content, .web-dev-sol-img, .digital-sol-img, .web-design-sol-img, .mobile-sol-img,  .cloud-competing-sol-img{
+		height: 500px;
+		width: 100%;
+	}
+	.web-design-sol-img, .mobile-sol-img,  .cloud-competing-sol-img,.web-dev-sol-img, .digital-sol-img {
+		width: 100%;
+	}
+	.web-design-sol-img img, .mobile-sol-img img, .cloud-competing-sol-img img, .web-dev-sol-img img, .digital-sol-img img{
+		width: 50%;
+		padding-top: 100px;
+	}
+	.web-dev-sol-img1, .digital-sol-img1 {
+		display: block;
+		margin: 0 auto;
+	}
+	.web-dev-sol-img1 img, .digital-sol-img1 img{
+		margin: 0 auto;
+		padding: 100px 0px;
+	}
+	.web-dev-sol-img, .digital-sol-img{
+		display: none;
+	}
+	.protfolio-slider, .cascade-slider{
+		padding:50px 0px;
+
+	}
+	/*about us start*/
+	.system-work-content p {
+	    padding-top: 0px;
+	    padding-bottom: 40px;
+	    max-width: 600px;
+	    margin: 0 auto;
+	}
+	.line2{
+		margin: 0 auto;
+	}
+	.philosophy-motivation-img h2, .philosophy-motivation-content h2{
+		padding-bottom: 20px;
+	}
+	.philosophy-motivation-img p, .philosophy-motivation-content p{
+		padding-top: 20px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.philosophy-motivation-img img{
+		display: none;
+	}
+	.philosophy-motivation-content img{
+		display: block;
+		
+	}
+}
+@media only screen and (max-width: 640px){
+	
+}
+@media only screen and (max-width: 624px){
+	
+}	
+
+@media only screen and (max-width: 567px){
+	/*service page start*/
+	.web-design-sol-content, .mobile-sol-content, .cloud-competing-content, .web-dev-sol-content, .digital-sol-content, .web-dev-sol-img, .digital-sol-img, .web-design-sol-img, .mobile-sol-img,  .cloud-competing-sol-img{
+		height: 600px;
+		width: 100%;
+	}
+	.web-design-sol-img img, .mobile-sol-img img, .cloud-competing-sol-img img, .web-dev-sol-img img, .digital-sol-img img{
+		padding: 0px;
+		width: 70%;
+	}
+	.web-design-sol-img, .mobile-sol-img,  .cloud-competing-sol-img,.web-dev-sol-img, .digital-sol-img {
+		width: 100%;
+		height: 500px;
+		padding: 50px 0px;
+	}
+
+}
+
+@media only screen and (max-width: 480px){
+	
+}	
+
+@media only screen and (max-width: 380px){
+	/*service page start*/
+	.web-design-sol-content, .mobile-sol-content, .cloud-competing-content, .web-dev-sol-content, .digital-sol-content, .web-dev-sol-img, .digital-sol-img, .web-design-sol-img, .mobile-sol-img,  .cloud-competing-sol-img{
+		height: 700px;
+		width: 100%;
+	}
+	.web-design-sol-img img, .mobile-sol-img img, .cloud-competing-sol-img img, .web-dev-sol-img img, .digital-sol-img img{
+		padding: 0px;
+		width: 100%;
+	}
+	.web-design-sol-img, .mobile-sol-img,  .cloud-competing-sol-img,.web-dev-sol-img, .digital-sol-img {
+		width: 100%;
+		height: 500px;
+		padding: 50px 0px;
+	}
+	.cascade-slider_container, .protfolio-slider_container {
+	  max-width: 400px;
+	 
+	}
+
+}
+
+@media only screen and (max-width: 360px){
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
